@@ -9,8 +9,10 @@ public class App {
     
     class Student {
     	String name;
-    	public Student(String name) {
+    	String password;
+    	public Student(String name, String password) {
     		this.name = name;
+    		this.password = password;
     	}
     }
 }
